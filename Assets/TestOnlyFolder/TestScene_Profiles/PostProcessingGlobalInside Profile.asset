@@ -34,10 +34,10 @@ MonoBehaviour:
     value: 0
   intensity:
     overrideState: 1
-    value: 1.98
+    value: 4
   color:
     overrideState: 1
-    value: {r: 0.1282485, g: 0.16349237, b: 0.20754719, a: 1}
+    value: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
   ambientOnly:
     overrideState: 0
     value: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
     value: 0
   radius:
     overrideState: 1
-    value: 3.4
+    value: 3
   quality:
     overrideState: 1
     value: 2
@@ -132,10 +132,10 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.5
+    value: 0.55
   contrast:
     overrideState: 1
-    value: -26
+    value: -39
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
