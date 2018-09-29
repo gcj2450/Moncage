@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 
 public class AnimatePartBase : MonoBehaviour {
 
     public int phase = 0;
+	public bool isConnectActive = false;//only used for connect event
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +18,22 @@ public class AnimatePartBase : MonoBehaviour {
 		
 	}
 
+	public virtual void DoEvent()
+	{
+		
+	}
+	
+	public virtual void EnableIsConnectActive()
+	{
+		isConnectActive = true;
+	}
+
+	public virtual void DisableIsConnectActive()
+	{
+		isConnectActive = false;
+	}
+
+	
     public void SetPhase(int _phase)//used for reset
     {
         phase = _phase;
@@ -26,6 +45,8 @@ public class AnimatePartBase : MonoBehaviour {
                 break;
         }
     }
+	
+	
 
     
 }

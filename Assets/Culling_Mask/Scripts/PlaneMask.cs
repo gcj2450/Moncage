@@ -21,7 +21,7 @@ public class PlaneMask : MonoBehaviour {
         zoneGroupManager = GameObject.Find("ZoneGroup").GetComponent<ZoneGroupManager>();
         //print(zoneGroupManager.name);
         Renderer[] renderers = zoneGroupManager.zoneArray[maskIndex].GetComponentsInChildren<Renderer>(true);
-        print(renderers.Length);
+        //print(renderers.Length);
         foreach(Renderer child in renderers)
         {
             renderListArray.Add(child);

@@ -444,11 +444,14 @@
             </e>
           </e>
         </e>
+        <e p="saveData.xml" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimatePartBase.cs" t="Include" />
           <e p="AnimatePartInstance" t="Include">
-            <e p="AnimatePart01.cs" t="Include" />
-            <e p="AnimatePart02.cs" t="Include" />
+            <e p="FurnanceDoorAP.cs" t="Include" />
+            <e p="HandleAP.cs" t="Include" />
+            <e p="TrapDoorAP.cs" t="Include" />
+            <e p="WrenchAp.cs" t="Include" />
           </e>
           <e p="CameraControl.cs" t="Include" />
           <e p="CurveTest.cs" t="Include" />
@@ -457,6 +460,7 @@
             <e p="ChangeMat.cs" t="Include" />
           </e>
           <e p="InteractableItemBase.cs" t="Include" />
+          <e p="InteractionManager.cs" t="Include" />
           <e p="MainCameraControl.cs" t="Include" />
           <e p="MarkPositionBase.cs" t="Include" />
           <e p="MarkPositionGroupManager.cs" t="Include" />
@@ -467,6 +471,7 @@
           <e p="SceneBase.cs" t="Include" />
           <e p="SelfRotation.cs" t="Include" />
           <e p="TestFunction.cs" t="Include" />
+          <e p="ToolsControl.cs" t="Include" />
           <e p="UnitySingleton.cs" t="Include" />
           <e p="ZoneGroupManager.cs" t="Include" />
         </e>
