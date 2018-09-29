@@ -84,5 +84,6 @@ Material:
     - _BaseTint: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.7264151, g: 0.058250275, b: 0.7040834, a: 0.49803922}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
     - _pN: {r: 0, g: 0, b: 1, a: 0}
     - _pV: {r: 0, g: 0, b: 1000, a: 0}

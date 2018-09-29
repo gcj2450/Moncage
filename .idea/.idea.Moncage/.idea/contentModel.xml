@@ -474,6 +474,7 @@
           <e p="NewShader.shader" t="Include" />
           <e p="StencilMask.shader" t="Include" />
           <e p="UnlitDefferedClip.shader" t="Include" />
+          <e p="UnlitForwardClip.shader" t="Include" />
           <e p="UnlitWithStencil.shader" t="Include" />
         </e>
         <e p="Shader Forge" t="Include">

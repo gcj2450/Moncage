@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mask1
+  - Mask2
+  - Mask3
+  - Mask4
   layers:
   - Default
   - TransparentFX
@@ -21,7 +25,7 @@ TagManager:
   - Zone2
   - Zone3
   - Zone4
-  - 
+  - Mask
   - 
   - 
   - 
