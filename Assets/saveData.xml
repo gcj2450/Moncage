@@ -1,0 +1,17 @@
+<saveData>
+  <zoneGroup>
+    <zone1 active="False" activeSceneName="Z1-01-TestCubeStack">
+      <scene name="Z1-01-TestCubeStack" />
+    </zone1>
+    <zone2 active="False" activeSceneName="null" />
+    <zone3 active="True" activeSceneName="Z3-01-LightHouseIndoor">
+      <scene name="Z3-01-LightHouseIndoor">
+        <animatePart name="furnaceDoor1" phase="0" />
+      </scene>
+    </zone3>
+    <zone4 active="False" activeSceneName="null" />
+  </zoneGroup>
+  <markPositionGroup>
+    <markPosition name="M-01-TestMarkPosition" phase="0" active="True" />
+  </markPositionGroup>
+</saveData>
